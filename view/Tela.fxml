@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTela">
+   <children>
+      <ImageView fitHeight="294.0" fitWidth="428.0" layoutX="156.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="176.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/prato.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="280.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/prato.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="357.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/prato.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="191.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/prato.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="368.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/prato.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo0" fitHeight="120.0" fitWidth="140.0" layoutX="240.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/filosofo_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo1" fitHeight="120.0" fitWidth="140.0" layoutX="386.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" rotate="70.0">
+         <image>
+            <Image url="@../imagens/filosofo_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo3" fitHeight="120.0" fitWidth="140.0" layoutX="125.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true" rotate="-140.0">
+         <image>
+            <Image url="@../imagens/filosofo_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo4" fitHeight="120.0" fitWidth="140.0" layoutX="88.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" rotate="-70.0">
+         <image>
+            <Image url="@../imagens/filosofo_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="filosofo2" fitHeight="120.0" fitWidth="140.0" layoutX="352.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true" rotate="140.0">
+         <image>
+            <Image url="@../imagens/filosofo_pensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo4" fitHeight="26.0" fitWidth="50.0" layoutX="219.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" rotate="-48.4">
+         <image>
+            <Image url="@../imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo0" fitHeight="26.0" fitWidth="50.0" layoutX="351.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" rotate="40.2">
+         <image>
+            <Image url="@../imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo1" fitHeight="26.0" fitWidth="50.0" layoutX="390.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" rotate="115.0">
+         <image>
+            <Image url="@../imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo2" fitHeight="26.0" fitWidth="50.0" layoutX="283.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo3" fitHeight="26.0" fitWidth="50.0" layoutX="184.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" rotate="-114.4">
+         <image>
+            <Image url="@../imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <Spinner fx:id="p0" initialValue="5" layoutX="362.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="c0" initialValue="5" layoutX="362.0" layoutY="25.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="p1" initialValue="5" layoutX="489.0" layoutY="69.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="c1" initialValue="5" layoutX="489.0" layoutY="94.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="p2" initialValue="5" layoutX="477.0" layoutY="334.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="c2" initialValue="5" layoutX="477.0" layoutY="359.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="p3" initialValue="5" layoutX="32.0" layoutY="334.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="c3" initialValue="5" layoutX="32.0" layoutY="359.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="p4" initialValue="5" layoutX="32.0" layoutY="75.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Spinner fx:id="c4" initialValue="5" layoutX="32.0" layoutY="100.0" max="10" min="1" onMouseClicked="#atualizarValores" onMouseDragged="#atualizarValores" onMouseEntered="#atualizarValores" onMouseExited="#atualizarValores" onMouseMoved="#atualizarValores" onMousePressed="#atualizarValores" onMouseReleased="#atualizarValores" prefHeight="26.0" prefWidth="65.0" style="-fx-border-color: #00FF9A;" />
+      <Label layoutX="555.0" layoutY="77.0" text="P" />
+      <Label layoutX="554.0" layoutY="102.0" text="C" />
+      <Label layoutX="21.0" layoutY="340.0" text="P" />
+      <Label layoutX="20.0" layoutY="365.0" text="C" />
+      <Label layoutX="428.0" layoutY="8.0" text="P" />
+      <Label layoutX="427.0" layoutY="33.0" text="C" />
+      <Label layoutX="550.0" layoutY="342.0" text="P" />
+      <Label layoutX="549.0" layoutY="367.0" text="C" />
+      <Label layoutX="19.0" layoutY="81.0" text="P" />
+      <Label layoutX="18.0" layoutY="106.0" text="C" />
+   </children>
+</AnchorPane>
